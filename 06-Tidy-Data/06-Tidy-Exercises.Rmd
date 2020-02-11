@@ -94,6 +94,20 @@ who %>%
   _______________________________
 ```
 
+### Bonus
+
+Check the documentation for `pivot_longer` and try it without using `separate`.
+
+```{r}
+who %>% 
+  pivot_longer(
+  cols = 5:60,
+  names_to = _______________________________,
+  names_pattern = "new_?(.*)_(.)(.*)",
+  values_to = _______________________________
+  ) %>% 
+  select(-iso2, iso3)
+```
 
 # Reshaping Final Exam
 
