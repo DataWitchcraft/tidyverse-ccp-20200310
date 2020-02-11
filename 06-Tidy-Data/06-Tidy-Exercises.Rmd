@@ -47,7 +47,7 @@ On a sheet of paper, draw how the cases data set would look if it had the same v
 
 ## Your Turn 2
 
-Use `gather()` to reorganize `table4a` into three columns: **country**, **year**, and **cases**.
+Use `pivot_longer` to reorganize `table4a` into three columns: **country**, **year**, and **cases**.
 
 ```{r}
 
@@ -59,7 +59,7 @@ On a sheet of paper, draw how this data set would look if it had the same values
 
 ## Your Turn 4
 
-Use `spread()` to reorganize `table2` into four columns: **country**, **year**, **cases**, and **population**.
+Use `pivot_wider` to reorganize `table2` into four columns: **country**, **year**, **cases**, and **population**.
 
 ```{r}
 
@@ -70,7 +70,7 @@ Use `spread()` to reorganize `table2` into four columns: **country**, **year**, 
 
 ## Your Turn 5
 
-Gather the 5th through 60th columns of `who` into a pair of key:value columns named `codes` and `n`.
+Reshape the 5th through 60th columns of `who` into a pair of name:value columns named `codes` and `n`. (Hint: make the dataset longer.)
 
 Then select just the `county`, `year`, `codes` and `n` variables.
 
@@ -87,7 +87,7 @@ Separate the `sexage` column into `sex` and `age` columns.
 
 ```{r}
 who %>%
-  gather("codes", "n", 5:60) %>%
+  pivot_longer(5:60, names_to = "codes", values_to = "n") %>%
   select(-iso2, -iso3) %>%
   separate(codes, c("new", "type", "sexage"), sep = "_") %>%
   select(-new) %>% 
