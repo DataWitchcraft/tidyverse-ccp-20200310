@@ -88,34 +88,11 @@ flights %>%
 ```
 
 
-# filtering joins
-
-```{r}
-band %>% semi_join(instrument, by = "name")
-band %>% anti_join(instrument, by = "name")
-```
-
-## Your Turn 3
-
-How many airports in `airports` are serviced by flights in `flights`? (i.e. how many places can you fly to direct from New York?) 
-
-Notice that the column to join on is named `faa` in the **airports** data set and `dest` in the **flights** data set.
-
-```{r}
-__________ %>%
- _____________________________ %>%
-  distinct(faa)
-```
-
-
 # Take aways
 
 * `left_join()` retains all cases in _left_ data set
 * `right_join()` retains all cases in _right_ data set
 * `full_join()` retains all cases in _either_ data set
 * `inner_join()` retains _only_ cases in _both_ data sets
-
-* `semi_join()` extracts cases that _have_ a match
-* `anti_join()` extracts cases that _do not have_ a match 
 
 
