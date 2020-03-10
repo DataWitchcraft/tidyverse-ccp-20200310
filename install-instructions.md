@@ -7,7 +7,7 @@ To prepare for the workshop, please, bring a laptop to class that has the follow
 * The R packages we will use, which you can install by connecting to the internet, opening RStudio, and running at the command line:
 
 ```
-install.packages(c("babynames", "nycflights13", "mgcv", "repurrrsive", "rmarkdown", "tidyverse", "flexdashboard"))
+install.packages(c("babynames", "nycflights13", "mgcv", "repurrrsive", "rmarkdown", "tidyverse", "flexdashboard", "plotly"))
 ```
 
 And don't forget your power cord!
