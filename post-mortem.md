@@ -2,7 +2,7 @@
 
 Visualization: 9:15 - 12:35  
 Data transformation: 13:40 - 16:00  
-Markdown:   
+Markdown: 16:10 - 16:45   
 
 Joins:  
 Types:  
@@ -26,3 +26,8 @@ Lists:
 - new syntax to facets  
 - slide 119 may count with using the Rmd examples, it can be quite difficult to do it from the scratch  
 - mutate: min_rank() is quite difficult to get  
+- we skipped $ and needed it in Rmarkdown
+
+### Report
+
+- they don't know for loop yet  
