@@ -1,8 +1,7 @@
 ## Actual schedule:
 
-Visualization: 9:15 - 12:45  
-Visualization - extras
-Data transformation:   
+Visualization: 9:15 - 12:35  
+Data transformation: 13:40 - 16:00  
 Markdown:   
 
 Joins:  
@@ -21,3 +20,9 @@ Lists:
 - diamonds - density plot: the p1 plot is not defined anywhere
 - scales: package viridisLite instead of viridis, scale_colour_viridis_c, scale_colour_viridis_d (already installed with tidyverse) 
 - get working directory without the underscore: getwd()
+
+### Data transformation
+
+- new syntax to facets  
+- slide 119 may count with using the Rmd examples, it can be quite difficult to do it from the scratch  
+- mutate: min_rank() is quite difficult to get  
