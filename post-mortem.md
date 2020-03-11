@@ -5,9 +5,9 @@ Data transformation: 13:40 - 16:00
 Markdown: 16:10 - 16:45   
 
 Joins: 9:00 - 10:15    
-Types:  
-Tidy data:  
-Lists:  
+Types: 10:15 - 12:05 
+Tidy data: 13:05 - 14:10 (?) 
+Lists:  14:20 - 15:25 (?)
 
 ## Issues / TO DO
 
