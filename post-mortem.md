@@ -11,7 +11,7 @@ Lists:
 
 ## Issues / TO DO
 
-- RStudio ID - describe how to work with that (files, console, basic keyboars shortcuts, maybe distribute cheatsheet?)
+- RStudio IDE - describe how to work with that (files, console, basic keyboars shortcuts, maybe distribute cheatsheet?), discourage just typing to console
 
 ### Data visualization
 
@@ -40,3 +40,8 @@ Lists:
 > first(c(2, 3, 4))
 [1] 2
 ```
+
+### Data types
+
+- Factors are introduced in a hard way
+- Slides 71-79 can be cut out
