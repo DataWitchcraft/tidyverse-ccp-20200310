@@ -5,13 +5,14 @@ Data transformation: 13:40 - 16:00
 Markdown: 16:10 - 16:45   
 
 Joins: 9:00 - 10:15    
-Types: 10:15 - 12:05 
-Tidy data: 13:05 - 14:10 (?) 
-Lists:  14:20 - 15:25 (?)
+Types: 10:40 - 12:05   
+Tidy data: 13:05 - 14:10 (?)  
+Lists:  14:20 - 15:25 (?)  
 
 ## Issues / TO DO
 
 - RStudio IDE - describe how to work with that (files, console, basic keyboars shortcuts, maybe distribute cheatsheet?), discourage just typing to console
+- almost all participants would prefer science / biological datasets
 
 ### Data visualization
 
@@ -45,3 +46,10 @@ Lists:  14:20 - 15:25 (?)
 
 - Factors are introduced in a hard way
 - Slides 71-79 can be cut out
+
+### Tidy data
+
+### Lists
+
+- pluck() won't work for two or more elements
+- explain set_names or use another example
