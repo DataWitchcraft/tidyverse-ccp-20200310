@@ -4,7 +4,9 @@
 **Location:** BIOCEV, Prumyslova 595, Vestec  
 
 **RStudio Cloud project**: https://rstudio.cloud/project/1025613  
-**Bitly URL of this repo:** [http://bit.ly/tidyverse0310](http://bit.ly/tidyverse0310)
+**Bitly URL of this repo:** [http://bit.ly/tidyverse0310](http://bit.ly/tidyverse0310)  
+
+**Follow-up materials after the workshop**: https://docs.google.com/document/d/15vIXKJkkM1Jm5ADPAQ-prZ63b4yoLfUzBzKgxqT6bBQ/edit?usp=sharing  
 
 All materials were copied or adapted from RStudio course [Remastering ‘Master the Tidyverse’](https://education.rstudio.com/blog/2019/09/remaster-tidyverse/) course by Garrett Grolemund. They are available under the Creative Commons BY-SA 4.0 license.
 
